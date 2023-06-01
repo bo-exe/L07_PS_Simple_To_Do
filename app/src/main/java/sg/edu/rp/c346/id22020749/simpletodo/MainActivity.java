@@ -91,7 +91,6 @@ public class MainActivity extends AppCompatActivity {
         spinAddRemove.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                Log.d("Boyang","onItemSelected" + position);
 
                 switch (position) {
                     case 0:
